@@ -1,7 +1,7 @@
 'use client'
 import { Container, Box, unstable_styleFunctionSx, SxProps, bgcolor, styled, ThemeProvider, style, borderBottom } from '@mui/system'
 import Image from 'next/image';
-import '../header.css'
+//import '../header.css'
 import { createTheme } from '@mui/material';
 import Heading from '../Heading'
 import Search from '../MidCom/Search'

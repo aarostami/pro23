@@ -1,14 +1,14 @@
 'use client'
 // 'use server'
-import '../header.css'
+//import '../header.css'
 import { useState } from 'react'
 import Grid from '@mui/material/Unstable_Grid2'
 // import Grid from '@mui/system/Unstable_Grid/Grid'
 import { Button, Box, Container, Typography, Drawer, List, ListItem, Divider, styled } from '@mui/material'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../images/logo.png'
-import hero from '../images/hero-banner-bg.png'
+//import logo from '../images/logo.png'
+//import hero from '../images/hero-banner-bg.png'
 import createTheme from '@mui/system/createTheme'
 
 export default function Header() {
@@ -39,8 +39,8 @@ export default function Header() {
 					<nav>
 						<Grid container justifyContent='space-between' alignItems={'center'}>
 							<Grid md={3} lg={3} container>
-								<Image src={logo}
-									alt='logo' />
+								{/* <Image src={logo}
+									alt='logo' /> */}
 							</Grid>
 							<Button onClick={() => setDrawer(true)} sx={{ display: { sm: 'none' } }}>Click</Button>
 							<Grid md={6} lg={6} sx={{ marginTop: '30px' }}>
