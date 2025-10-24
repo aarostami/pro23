@@ -79,3 +79,6 @@ shayad bekhatere version nodejs va nextjs hast.
  ⚠ Mismatching @next/swc version, detected: 14.2.6 while Next.js is on 15.0.1. Please ensure these match
 // ba taghire version next ya nodejs ok mishe.
 */
+
+/* Error: Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the enablement parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site Error: HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+baraye fix in error bayad dar Settings>Pages>Build and deployment -> source -> Github Actions */
